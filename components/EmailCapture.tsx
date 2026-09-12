@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import styles from './EmailCapture.module.css'
 
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID'
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mzebwlnd'
 
 export default function EmailCapture() {
   const [email, setEmail] = useState('')

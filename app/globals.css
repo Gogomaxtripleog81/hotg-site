@@ -1,3 +1,6 @@
+* { background-color: transparent; }
+html, body { background-color: #000000 !important; }
+
 :root {
   --void: #000000;
   --crimson: #8C0E1E;

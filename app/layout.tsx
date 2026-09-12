@@ -43,7 +43,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" className={`${cormorant.variable} ${notoSans.variable}`}>
-			<body>{children}</body>
+			<body style={{ backgroundColor: '#000000', margin: 0 }}>{children}</body>
 		</html>
 	)
 }
